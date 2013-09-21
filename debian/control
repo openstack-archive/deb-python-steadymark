@@ -5,7 +5,11 @@ Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
 Uploaders: Julien Danjou <acid@debian.org>,
            Thomas Goirand <zigo@debian.org>,
            Mehdi Abaakouk <sileht@sileht.net>
-Build-Depends: debhelper (>= 9), python-setuptools, python-all (>= 2.6.6-3~), openstack-pkg-tools
+Build-Depends: debhelper (>= 9),
+               openstack-pkg-tools,
+               python-all (>= 2.6.6-3~),
+               python-nose,
+               python-setuptools
 Standards-Version: 3.9.4
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-steadymark.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-steadymark.git
@@ -14,7 +18,15 @@ Homepage: http://github.com/gabrielfalcao/steadymark
 Package: python-steadymark
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: bpython, python-pygments, python-ipdb, ipython, python-misaka, python-nose, python-sure, ${python:Depends}, ${misc:Depends}
+Depends: bpython,
+         ipython,
+         python-ipdb,
+         python-misaka,
+         python-nose,
+         python-pygments,
+         python-sure,
+         ${misc:Depends},
+         ${python:Depends}
 Recommends: ${python:Recommends}
 Description: markdown-based test runner
  Write your documentation using github-flavored markdown, surround your
