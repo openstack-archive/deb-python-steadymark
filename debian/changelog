@@ -1,6 +1,6 @@
 python-steadymark (0.4.5-2) unstable; urgency=low
 
-  * Added missing build-depends: python-nose.
+  * Added missing build-depends: python-nose, python-sure.
 
  -- Thomas Goirand <zigo@debian.org>  Sat, 21 Sep 2013 13:25:54 +0800
 
