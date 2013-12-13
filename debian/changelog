@@ -1,3 +1,9 @@
+python-steadymark (0.4.5-3) UNRELEASED; urgency=low
+
+  * Added missing build-depends: python-misaka.
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 13 Dec 2013 13:09:20 +0800
+
 python-steadymark (0.4.5-2) unstable; urgency=low
 
   * Added missing build-depends: python-nose, python-sure (Closes: #724132).
