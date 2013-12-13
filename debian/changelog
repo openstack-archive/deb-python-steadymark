@@ -1,4 +1,4 @@
-python-steadymark (0.4.5-3) UNRELEASED; urgency=low
+python-steadymark (0.4.5-3) unstable; urgency=medium
 
   * Added missing build-depends: python-misaka.
 
