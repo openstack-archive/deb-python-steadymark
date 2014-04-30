@@ -1,3 +1,10 @@
+python-steadymark (0.4.5-4) unstable; urgency=medium
+
+  * Allow the unit tests to fail, since they do with the latest version of sure
+    (Closes: #746066).
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 30 Apr 2014 08:13:18 +0000
+
 python-steadymark (0.4.5-3) unstable; urgency=medium
 
   * Added missing build-depends: python-misaka.
