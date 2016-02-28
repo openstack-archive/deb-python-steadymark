@@ -13,8 +13,8 @@ Build-Depends: debhelper (>= 9),
                python-sure,
                python-setuptools
 Standards-Version: 3.9.4
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-steadymark.git
-Vcs-Git: git://anonscm.debian.org/openstack/python-steadymark.git
+Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-steadymark.git/
+Vcs-Git: https://anonscm.debian.org/git/openstack/python-steadymark.git
 Homepage: https://github.com/gabrielfalcao/steadymark
 
 Package: python-steadymark
