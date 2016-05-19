@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-UPSTREAM_GIT = git://github.com/gabrielfalcao/steadymark.git
+UPSTREAM_GIT := https://github.com/gabrielfalcao/steadymark.git
 include /usr/share/openstack-pkg-tools/pkgos.make
 
 %:
